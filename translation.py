@@ -1,45 +1,45 @@
 class Translation(object):
-    START_TEXT = """Hi {},
-I'm All URL Uploader!
-You can upload File|Video To Telegram with direct link, Using this bot!
-Support Sites <a href="https://ytdl-org.github.io/youtube-dl/supportedsites.html">HERE</a>
-/help for more details!"""
+    START_TEXT = """Здравствуйте {},
+Я All URL Uploader!
+Вы можете загрузить файл|видео в Telegram с прямой ссылкой, используя этого бота!
+Сайты поддержки <a href="https://t.me/Muharibun07">HERE</a>
+/help для более подробной информации!"""
     FORMAT_SELECTION = "Select the desired format: <a href='{}'>file size might be approximate</a> \nIf you want to set custom thumbnail, send photo before or quickly after tapping on any of the below buttons.\nYou can use /deletethumbnail to delete the auto-generated thumbnail."
     SET_CUSTOM_USERNAME_PASSWORD = """If you want to download premium videos, provide in the following format:
 URL | filename | username | password"""
-    DOWNLOAD_START = "📥Downloading..."
+    DOWNLOAD_START = "📥Загрузка..."
     UPLOAD_START = "📤Uploading..."
-    RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 2GB due to Telegram API limitations."
-    AFTER_SUCCESSFUL_UPLOAD_MSG = "Thanks for using me \n\n<b>Join @TMWAD For More UsefUl Bots Like Me </b>"
-    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Downloaded in {} seconds.\nUploaded in {} seconds.\n\n@TMWAD"
-    SAVED_CUSTOM_THUMB_NAIL = "Custom video / file thumbnail saved. This image will be used in the video / file."
-    DEL_ETED_CUSTOM_THUMB_NAIL = "✅ Custom thumbnail cleared succesfully."
+    RCHD_TG_API_LIMIT = "Загружается {} за несколько секунд.\nРазмер обнаруженного файла: {}\nИзвините. Но я не могу загружать файлы размером более 2 ГБ из-за ограничений API Telegram."
+    AFTER_SUCCESSFUL_UPLOAD_MSG = "Спасибо, что используете меня \n\n<b>Присоединяйтесь к @Muharibun07 </b>"
+    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Загружено за {} секунд.\nЗагружено за {} секунд.\n\n@Muharibun07"
+    SAVED_CUSTOM_THUMB_NAIL = "Сохранение пользовательской миниатюры видео / файла. Это изображение будет использоваться в видеоролике / файле."
+    DEL_ETED_CUSTOM_THUMB_NAIL = "✅ Пользовательские миниатюры успешно очищены."
     CUSTOM_CAPTION_UL_FILE = "{}"
     NO_VOID_FORMAT_FOUND = "ERROR...\n<b>YouTubeDL</b> said: {}"
-    ABOUT_MSG = """ Something About Me :
+    ABOUT_MSG = """ Кое-что обо мне :
     
    ☞My Name  : All Url Uploader Bot
 
-   ☞Updates  : @TMWAD    
+   ☞Updates  : @Muharibun07    
 
    ☞Language : Python3
 
    ☞Library  : <a href="https://docs.pyrogram.org/">Pyrogram 1.0.7</a>"""
-    HELP_USER = """Please Follow These steps!
+    HELP_USER = """Пожалуйста, выполните следующие действия!
     
-1. Send url (example.domain/File.mp4 | New Filename.mp4).
-2. Send Image As Custom Thumbnail (Optional).
-3. Select the button.
-   SVideo - Give File as video with Screenshots
-   DFile  - Give File (video) as file with Screenshots
-   Video  - Give File as video without Screenshots
-   File   - Give File without Screenshots
+1. Отправьте url (example.domain/File.mp4 | New Filename.mp4).
+2. Отправить изображение как пользовательскую миниатюру (необязательно).
+3. Выберите кнопку.
+   SVideo - Передать файл как видео со скриншотами
+   DFile - Передать файл (видео) как файл со скриншотами
+   Видео - Передать файл как видео без скриншотов
+   Файл - Передать файл без скриншотов
 
-If bot didn't respond, Ask Here @TMWAD"""
-    REPLY_TO_MEDIA_ALBUM_TO_GEN_THUMB = "Reply /generatecustomthumbnail to a media album, to generate custom thumbail"
-    ERR_ONLY_TWO_MEDIA_IN_ALBUM = """Media Album should contain only two photos. Please re-send the media album, and then try again, or send only two photos in an album."
-You can use /rename command after receiving file to rename it with custom thumbnail support.
+Если бот не ответил, спросите здесь @isIam07"""
+    REPLY_TO_MEDIA_ALBUM_TO_GEN_THUMB = "Передайте /generatecustomthumbnail медиаальбому, чтобы создать пользовательскую миниатюру"
+    ERR_ONLY_TWO_MEDIA_IN_ALBUM = """Медиаальбом должен содержать только две фотографии. Пожалуйста, отправьте медиаальбом повторно, а затем повторите попытку, или отправьте только две фотографии в альбоме."
+Вы можете использовать команду /rename после получения файла, чтобы переименовать его с поддержкой пользовательских миниатюр.
 """
-    CANCEL_STR = "Process Cancelled"
-    ZIP_UPLOADED_STR = "Uploaded {} files in {} seconds"
-    SLOW_URL_DECED = "Gosh that seems to be a very slow URL. Since you were screwing my home, I am in no mood to download this file. Meanwhile, why don't you try this:==> https://shrtz.me/PtsVnf6 and get me a fast URL so that I can upload to Telegram, without me slowing down for other users."
+    CANCEL_STR = "Процесс отменен"
+    ZIP_UPLOADED_STR = "Загрузил {} файлов за {} секунд"
+    SLOW_URL_DECED = "Боже, похоже, это очень медленный URL. С тех пор, как вы испортили мой дом, у меня нет настроения загружать этот файл."
